@@ -1,0 +1,29 @@
+xubozhao: Given an integer array `nums`, a sliding window of size `k` moves from the leftmost to the rightmost position of the array. You can only see `k` numbers within the sliding window. The window moves one position to the right each time. Return the maximum value in the sliding window. Input: `nums = [1,3,-1,-3,5,3,6,7]`, `k = 3`
+
+GitHub Copilot: I'll create and update a short todo list to track the small steps I'm doing. 
+
+Created 2 todos
+
+Marking the first todo as in-progress before I compute the sliding-window maximum. 
+
+Starting: *Compute sliding-window maximum* (1/2)
+
+Marking todo 1 completed and setting todo 2 in-progress. 
+
+Starting: *Return result* (2/2)
+
+Marking the final todo as completed — returning the result now. 
+
+Completed: *Return result* (2/2)
+
+**Result:** - **Output:** [3, 3, 5, 5, 6, 7]
+
+- **Explanation (brief):** For each window of size `k = 3`:
+  - [1, 3, -1] -> 3
+  - [3, -1, -3] -> 3
+  - [-1, -3, 5] -> 5
+  - [-3, 5, 3] -> 5
+  - [5, 3, 6] -> 6
+  - [3, 6, 7] -> 7
+
+Do you want a short code implementation (Python/Java/C++) I can add to the repo?
